@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: indigo;
+}
+header {
+    background-color: indigo;
+    color: white;
+    padding: 20px;
+}
+header h1 {
+     margin: 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+body aside a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+#wpp {
+    color: white;
+    background-color: #25D366;
+}
+#linkedin {
+    color: white ;
+    background-color: #0077B5  ;
+    padding: 10px 21px;
+}
+
+#insta {
+    color: white;
+    background: rgb(81,91,212);
+    background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 35%, rgba(245,133,41,1) 100%);
+}
+main {
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 525px;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 220, 0.815);
+}
+main section article {
+    margin-top: 10px;
+}
+main section article hr {
+    width: 90%;
+    border: 1px solid;
+    border-color: gray;
+}
+main section article p {
+    margin-top: 10px;
+    width: 700px;
+    text-align: justify;
+}
+section{
+    height: 252px;
+}
+aside{
+    position: relative;
+    padding: 10px;
+    left: 1100px;
+    bottom: 785px;
+}
+aside ul li {
+    margin: 0;
+    list-style: none;
+}
+footer {
+    /*margin: 100px;*/
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:antiquewhite
+}
+article {
+    width: 1870px;
+}
+footer {
+    font-size: smaller;
+    
+}
+footer hr {
+    margin-top: 2px;
+    height: 100%;
+   }

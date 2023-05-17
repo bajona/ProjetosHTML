@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(103, 159, 161);
+}
+section {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 350px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 15px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  margin-left: 45px;
+  margin-top: 25px;
+}
+#ivysaur {
+    width: 150px;
+    height: 100px;
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 28px;
+}
+#charizard {
+    margin-left: 45px;
+    margin-top: 25px;
+}
+#charmeleon {
+    height: 80px;
+    margin-left: 72px;
+    margin-top: 10px;
+}
+#charmander {
+    margin-top: -10px;
+}
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+#vertical {
+    margin-top: 0%;
+  }
+.centralizar, #barra, .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container:hover > :not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.4;
+  filter: blur(3px);
+}
+
+h1 {
+  text-align: center;
+  margin: 8px;
+  padding: 2px;
+  border: 1px solid gray;
+  font-weight: 50;
+  font-size: 25px;
+  border-radius: 4px;
+}
+p {
+  margin: 10px;
+}
+.grama {
+  background-color: rgb(73, 228, 73);
+  padding: 6px;
+  border-radius: 5px;
+}
+.veneno {
+  background-color: rgb(214, 64, 219);
+  padding: 6px;
+  border-radius: 5px;
+}
+.fogo {
+  background-color: orange;
+  padding: 6px;
+  border-radius: 5px;
+}
+.voador {
+    background-color: rgb(146, 218, 218);
+    padding: 6px;
+    border-radius: 5px;
+}
+.agua {
+    background-color: rgb(69, 84, 216);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.item {
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.barra {
+    overflow: auto;
+    height: 75px;
+    margin-left: 15px;
+    width: 180px;
+    text-justify: auto;
+  }
+h4 {
+  font-weight: 200;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #b8b7b7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #54c499;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #73dab2;
+}

@@ -1,0 +1,1 @@
+Olá! Aqui estão projetos descontinuados meu que serviram de estudo, aprendendo coisas novas e sempre implementando nos meus novos projetos, sinta-se a vontade para dar uma olhada ;)

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:indigo;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: indigo;
+    color: white;
+    padding: 20px;
+}
+header h1 {
+     margin: 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+main {
+    padding: 262px;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 220, 0.842);
+}
+
+
+form {
+    width: 50%;
+    height: 100%; 
+    margin: 0 auto;
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+}
+input[type="tel"]{
+    width: 50%;
+}
+label{
+    padding: 4px;
+}
+input  {
+    border: none;
+    background-color: bisque;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+input[type="submit"]{
+
+    background-color: rgb(245, 178, 55);
+    color: rgb(80, 64, 10);
+    margin: 10px auto;
+    width: 50%;
+}
+#email {
+    text-align: center;
+}
+#nome{
+    text-align: center;
+}
+fieldset {
+    border: 3px dashed rgb(0, 0, 0);
+    padding: 5px;
+    width: 45%;
+    height: 220px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer {
+    /*margin: 100px;*/
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer hr {
+ margin-top: 2px;
+ height: 10%;
+}

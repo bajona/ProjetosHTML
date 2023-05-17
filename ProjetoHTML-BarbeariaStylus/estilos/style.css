@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(243, 243, 243);
+    padding-top: 90px ;
+}
+
+main {
+    margin: 0 auto;
+    padding: 30px 60px 80px 60px;
+    width: 450px;
+    color: rgb(109, 109, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    border: 2px dashed rgb(109, 109, 109);
+}
+img {
+    width: 150px;
+}
+h1 {
+    border: 5px solid rgb(109, 109, 109);
+    padding: 7px;
+}
+#conheca {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+span {
+    font-weight: bold;
+}
+.justificado {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 13px;
+}
+#marginbaixo{
+    margin-bottom: 40px;
+}
+.meio {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    background-color: #25D366;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+}

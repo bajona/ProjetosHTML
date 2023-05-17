@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+section {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 60px 80px 60px ;
+    border: 1px solid red;
+}
+img {
+    width: 350px;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: red;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-bottom: 80px;
+    color: red;
+    text-align: justify;
+}
+#textolink {
+    color: white;
+}
+a {
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 12px;
+    padding: 15px;
+    
+}

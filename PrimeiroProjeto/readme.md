@@ -1,0 +1,1 @@
+Olá, esse projeto é um site em HTML5/CSS em que estou atualizando diariamente, sempre que aprendo coisas novas, tento implementar a esse site!
